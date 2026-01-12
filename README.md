@@ -1,5 +1,4 @@
 
-```
 # SOPRAC – Sistema de Gestão Integrada para ONG de Proteção Animal
 
 ## 📌 Visão Geral
