@@ -1,0 +1,48 @@
+/* CABEÇALHO */
+nav {
+  background-color: #8b0000;
+  height: 90px;
+  width: 100%;
+  display: flex;
+  align-items: center; /* centraliza verticalmente */
+  padding: 0 50px;
+  box-sizing: border-box;
+}
+
+.logo {
+  width: 70px;
+}
+
+/* Container dos links e ícones */
+.elementos {
+  display: flex;
+  flex: 1; /* ocupa todo o espaço restante */
+  justify-content: space-evenly; /* distribui os elementos proporcionalmente */
+  align-items: center; /* alinha verticalmente */
+  font-size: 20px;
+}
+
+/* Links */
+.elementos a {
+  text-decoration: none;
+  color: rgb(247, 247, 247);
+  padding: 10px 15px;
+  display: flex;
+  align-items: center;
+  transition: color 0.3s;
+}
+
+.elementos a:hover {
+  color: rgb(205, 178, 161);
+}
+
+/* Ícones */
+.elementos i {
+  font-size: 24px;
+  color: rgb(255, 255, 255);
+  transition: color 0.3s;
+}
+
+.elementos i:hover {
+  color: rgb(205, 178, 161);
+}
